@@ -13,12 +13,12 @@ npm install -g k6
 
 ### Setup
 Run `npm install` to install the necessary dependencies.
-
+Run `npm run build` to compile the TypeScript files.
 ### Running the Load Test
 To run the load test, use the following command:
 
 ```bash
-k6 run --env RAMP_UP_DURATION=30s --env CONSTANT_DURATION=30s --env RAMP_DOWN_DURATION=30s --env MAX_VUS=10 --env PRE_ALLOCATED_VUS=20 src/index.ts
+k6 run --env RAMP_UP_DURATION=30s --env CONSTANT_DURATION=30s --env RAMP_DOWN_DURATION=30s --env MAX_VUS=10 --env PRE_ALLOCATED_VUS=20 build/test.js
 ```
 
 #####  Command explanation
