@@ -2,7 +2,7 @@
 
 This repository contains load testing scripts for the my-burger-app, using k6.
 
-## Prerequisites
+## Pre requisites
 
 - Node.js and npm installed. You can download Node.js and npm from [here](https://nodejs.org/en/download/).
 - k6 installed. If you haven't installed k6, you can do so using the following command:
